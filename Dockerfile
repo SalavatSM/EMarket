@@ -17,4 +17,4 @@ RUN pip install -r requirements.txt
 COPY . /app/
 
 # Запускаем сервер через Gunicorn при старте контейнера
-CMD ["gunicorn", "--bind", ":8000", "test_project.wsgi:application"]
+CMD ["gunicorn", "--bind", ":8000", "beam_prjct.wsgi:application"]

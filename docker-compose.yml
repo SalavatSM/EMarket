@@ -12,7 +12,7 @@ services:
 
   web:
     build: .
-    command: gunicorn test_project.wsgi:application --bind 0.0.0.0:8000
+    command: gunicorn beam_prjct.wsgi:application --bind 0.0.0.0:8000
     volumes:
       - .:/app
     ports:
