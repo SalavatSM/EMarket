@@ -9,13 +9,19 @@
 </head>
 <body>
     <header>
-        </header>
-    <main>
+        <nav>
+            <ul>
+                <li><a href="/">Главная</a></li>
+                </ul>
+        </nav>
+    </header>
+    <main class="container">
         {% block content %}
         {% endblock %}
     </main>
     <footer>
-        </footer>
+        <p>&copy; 2023 Мой проект</p>
+    </footer>
     <script src="{% static 'js/scripts.js' %}"></script>
 </body>
 </html>
