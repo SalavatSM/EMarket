@@ -1,0 +1,16 @@
+.git
+.svn
+.hg
+.mypy_cache/
+__pycache__/
+*.pyc
+*.swp
+*.bak
+*.tmp
+.DS_Store
+npm-debug.log*
+yarn-error.log*
+node_modules
+coverage
+dist
+build
